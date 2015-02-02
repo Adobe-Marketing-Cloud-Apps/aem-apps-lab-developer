@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/phonegap/summit/developer-lab"
+        cq:lastModified="{Date}2014-09-04T16:49:51.266-04:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Developer Lab"
+        sling:resourceType="summit-developer-lab/components/splash-page"
+        pge-type="[app-instance]"
+        phonegap-build-exportTemplate="/content/phonegap/summit-developer-lab/shell/jcr:content/pge-app/developer-lab"
+        phonegap-build-exportTemplate-dev="/content/phonegap/summit-developer-lab/shell/jcr:content/pge-app/developer-lab-dev"
+        phonegap-exportTemplate="/content/phonegap/summit-developer-lab/shell/jcr:content/pge-app/app-config">
+        <image
+            jcr:lastModified="{Date}2014-09-04T16:49:51.263-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/summit/developer-lab/thumbnail.png"
+            imageRotate="0"/>
+        <pge-app jcr:primaryType="nt:unstructured">
+            <app-content jcr:primaryType="nt:unstructured">
+                <phonegap/>
+            </app-content>
+            <app-config/>
+            <developer-lab/>
+            <developer-lab-dev/>
+            <app-config-dev/>
+        </pge-app>
+        <screenshots
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Screenshots"
+            sling:resourceSuperType="sling/collection"
+            sling:resourceType="dam/collection">
+            <sling:members
+                jcr:primaryType="nt:unstructured"
+                sling:resources="[]"/>
+        </screenshots>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,248 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"summit",
+				"summit-developer-lab"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ja",
+				"Set Syntax: Java"
+			],
+			[
+				"rtf",
+				"SublimeHighlight: copy to clipboard as RTF"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/apps/summit-developer-lab",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/apps/summit-developer-lab/components/ng-phonegap-page",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/apps/summit-developer-lab/components/ng-phonegap-page/clientlibs",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/apps/summit-developer-lab/components/phonegap-camera",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/apps/summit-developer-lab/components/phonegap-camera/clientlibs",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/apps/summit-developer-lab/templates/phonegap-page",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content/dam/summit",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content/phonegap",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content/phonegap/summit-developer-lab",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/en",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/en/home",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/shell",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/etc/clientlibs/summit",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/etc/designs",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/etc/designs/phonegap",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/etc/designs/phonegap/summit",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/etc/designs/phonegap/summit/developer-lab",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/etc/designs/phonegap/summit/developer-lab/clientlibsall",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/META-INF",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/META-INF/vault",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/exercises",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/exercises/exercise-3",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/exercises/exercise-3/phonegap-camera",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/exercises/exercise-3/phonegap-camera/clientlibs"
+	],
+	"file_history":
+	[
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/apps/summit-developer-lab/components/phonegap-camera/clientlibs/phonegap-camera.js",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/exercises/README.md",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/en/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/apps/summit-developer-lab/components/phonegap-camera/clientlibs/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/exercises/exercise-3/phonegap-camera/clientlibs/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/apps/summit-developer-lab/components/phonegap-camera/phonegap-camera.jsp",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/apps/summit-developer-lab/components/phonegap-camera/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/shell/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/apps/summit-developer-lab/templates/phonegap-page/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/exercises/exercise-3/phonegap-camera/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/README.md",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/exercises/exercise-3/phonegap-camera/phonegap-camera.jsp",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/exercises/exercise-3/phonegap-camera/clientlibs/phonegap-camera.js",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/.gitignore",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content/dam/summit/developer-lab/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/apps/summit-developer-lab/templates/phonegap-page/thumbnail.png.dir/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/en/home/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/META-INF/vault/filter.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/pom.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/pom.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/shell/_jcr_content/pge-app/app-content/phonegap/www/config.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/en/home/subpage/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/etc/designs/phonegap/summit/developer-lab/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/content/src/main/content/jcr_root/apps/summit-developer-lab/components/ionic-menu-list/.content.xml",
+		"/Users/arumsey/Dev/Adobe-Marketing-Cloud-Apps/summit-developer-lab/customize-app.sh",
+		"/Users/arumsey/Dev/_People/arumsey/lab-geometrixx-app/exercises/exercise-3/phonegap-component/phonegap-component.jsp",
+		"/Users/arumsey/Dev/_People/arumsey/lab-geometrixx-app/exercises/exercise-3/phonegap-component/.content.xml",
+		"/Users/arumsey/Dev/_People/arumsey/lab-geometrixx-app/exercises/exercise-3/phonegap-component/_cq_editConfig.xml",
+		"/Users/arumsey/Dev/_People/arumsey/lab-geometrixx-app/content/src/main/content/jcr_root/etc/designs/phonegap/geometrixx-lab/ng-outdoorsapp/.content.xml",
+		"/Users/arumsey/Dev/_People/arumsey/lab-geometrixx-app/exercises/README.md",
+		"/Users/arumsey/Dev/_People/arumsey/lab-geometrixx-app/content/src/main/content/jcr_root/apps/geometrixx-lab-app/components/menu-list/menu-list.jsp",
+		"/Users/arumsey/Dev/_People/arumsey/lab-geometrixx-app/geometrixx-lab.sublime-project",
+		"/Users/arumsey/Dev/_People/arumsey/android-managed-content/package.json",
+		"/Users/arumsey/Dev/phonegap/phonegap-app-enterprise/platforms/android/local.properties",
+		"/Users/arumsey/Dev/phonegap/phonegap-app-enterprise/res/signing/android/ant.properties",
+		"/Users/arumsey/oneplus/sites/all/themes/oneplus/css/styles.css",
+		"/Users/arumsey/oneplus/sites/all/themes/oneplus/css/normalize.css"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "summit-developer-lab.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 384.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

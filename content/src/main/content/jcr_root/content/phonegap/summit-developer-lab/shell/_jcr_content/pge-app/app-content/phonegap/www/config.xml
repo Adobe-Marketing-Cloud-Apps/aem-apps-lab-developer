@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.adobe.summit.mobileapps.lab.dev" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Summit Lab</name>
+    <description>
+        Adobe Summit: AEM Apps Developer Lab
+    </description>
+
+    <author href="http://summit.adobe.com/na/">
+        Anthony Rumsey
+    </author>
+    
+    <preference name="phonegap-version" value="3.6.3" />
+
+    <content src="content/phonegap/summit-developer-lab/en.html" />
+
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="SplashScreen" value="screen" />
+
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarStyle" value="blacktranslucent" />
+    <preference name="StatusBarBackgroundColor" value="#4684F1" />
+
+    <!-- File preferences -->
+    <preference name="iosPersistentFileLocation" value="Library" />
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+
+    <icon src="icon.png" />
+    <access origin="*" />
+
+    <!-- Phonegap Build Plugins -->
+    <gap:plugin name="org.apache.cordova.file" version="1.0.1" />
+    <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.2"/>
+    <gap:plugin name="org.apache.cordova.device" version="0.2.8" />
+    <gap:plugin name="org.apache.cordova.geolocation" version="0.3.6" />
+    <gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
+    <gap:plugin name="org.chromium.zip" version="2.0.0" />
+    <gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
+    <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+    <gap:plugin name="org.apache.cordova.console" version="0.2.11" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+    <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+
+    <!-- Platforms -->
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+
+</widget>
