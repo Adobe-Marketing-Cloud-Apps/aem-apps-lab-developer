@@ -3,5 +3,5 @@
     jcr:primaryType="nt:unstructured"
     autoCreateFirstUpdateBeforeImport="{Boolean}false"
     autoFillBeforeImport="{Boolean}true"
-    path="/content/phonegap/developer-lab/shell/jcr:content/pge-app/app-config-dev"
+    path="/content/phonegap/summit-developer-lab/shell/jcr:content/pge-app/app-config-dev"
     type="contentsyncconfigcontent"/>

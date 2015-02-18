@@ -41,19 +41,41 @@
     <icon src="icon.png" />
     <access origin="*" />
 
-    <!-- Phonegap Build Plugins -->
-    <gap:plugin name="org.apache.cordova.file" version="1.0.1" />
-    <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.2"/>
-    <gap:plugin name="org.apache.cordova.device" version="0.2.8" />
-    <gap:plugin name="org.apache.cordova.geolocation" version="0.3.6" />
-    <gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
-    <gap:plugin name="org.chromium.zip" version="2.0.0" />
-    <gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
-    <gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
-    <gap:plugin name="org.apache.cordova.console" version="0.2.11" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
-    <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
-    <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+    <feature name="org.apache.cordova.file">
+        <param name="id" value="org.apache.cordova.file@1.0.1"/>
+    </feature>
+    <feature name="org.apache.cordova.file-transfer">
+        <param name="id" value="org.apache.cordova.file-transfer@0.4.2"/>
+    </feature>
+    <feature name="org.apache.cordova.device">
+        <param name="id" value="org.apache.cordova.device@0.2.8"/>
+    </feature>
+    <feature name="org.apache.cordova.console">
+        <param name="id" value="org.apache.cordova.console@0.2.10"/>
+    </feature>
+    <feature name="org.apache.cordova.dialogs">
+        <param name="id" value="org.apache.cordova.dialogs@0.2.10"/>
+    </feature>
+    <feature name="org.chromium.zip">
+        <param name="id" value="org.chromium.zip@2.0.0"/>
+    </feature>
+    <feature name="org.apache.cordova.statusbar">
+        <param name="id" value="org.apache.cordova.statusbar@0.1.8"/>
+    </feature>
+    <feature name="org.apache.cordova.splashscreen">
+        <param name="id" value="org.apache.cordova.splashscreen@0.3.4"/>
+    </feature>
+    <!-- Module 5 --><!--
+    <feature name="ADBMobile">
+        <param name="id" value="https://github.com/Adobe-Marketing-Cloud/mobile-services#0482f9cedf90c98a8d4b07219ece1933b2e46a60"/>
+    </feature>
+     -->
+    
+    
+    <!-- Hooks -->
+    <hook type="after_platform_add" src="scripts/restore_plugins.js"/>
+    <!-- Module 5 --><!--<hook type="after_prepare" src="scripts/copy_AMS_config.js" />-->
+    
 
     <!-- Platforms -->
     <gap:platform name="ios" />

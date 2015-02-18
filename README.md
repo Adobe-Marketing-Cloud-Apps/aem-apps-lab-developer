@@ -1,7 +1,7 @@
 # Building Mobile Apps: Lab
 ## A PhoneGap Enterprise Introduction for Developers
 
-### Requirements
+### Minimum Requirements
 
 - AEM 6.0, with:
 	- [Service Pack 1](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem600/servicepack/AEM-6.0-Service-Pack) installed
@@ -26,18 +26,17 @@ From the project root, run:
 
 ... to build the content package and install to a AEM instance. The CRX host and port can be specified on the command line with `mvn -Dcrx.host=otherhost -Dcrx.port=5502 <goals>`
 
-
 ### Edit in AEM
 
 Once built and installed via maven, your new app should be editable in AEM. Take a look at the new [Apps admin console](http://localhost:4502/aem/apps.html/content/phonegap) to view the available apps on your instance.
 
-A new app folder with the brand name you specified above ('Geometrixx' in my case) should be listed. Tap it to view the app you created, which will be listed with the Cordova logo as it's thumbnail. If you followed the instructions exactly and have your author instance running locally on :4502, you should be able to author your new app via the following link:
+A new app folder with the name 'Summit Lab' should be listed. Tap it to view the app you installed. If you followed the instructions exactly and have your author instance running locally on `:4502`, you should be able to author your new app via the following link:
 
 [http://localhost:4502/editor.html/content/phonegap/Geometrixx/ShapesCon/en/home.html](http://localhost:4502/editor.html/content/phonegap/Geometrixx/ShapesCon/en/home.html)
 
-### Exercises
+### Lessons
 
-Exercises associated with this lab can be found in the [exercises directory](exercises) of this repository.
+Lessons associated with this lab can be found in the [lessons directory](lessons) of this repository.
 
 ### Run on the iOS Simulator
 

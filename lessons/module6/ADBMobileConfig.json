@@ -1,0 +1,40 @@
+{
+    "lastModified": "2014-11-11T16:37:13.861Z",
+    "target": {
+        "clientCode": "",
+        "timeout": 5
+    },
+    "audienceManager": {
+        "server": ""
+    },
+    "acquisition": {
+        "server": "c00.adobe.com",
+        "appid": "80443cbb-a9c5-4b7a-b2f7-8e2b41b308a0"
+    },
+    "analytics": {
+        "rsids": "cdgaemmobilets",
+        "server": "localhost:50000",
+        "ssl": false,
+        "offlineEnabled": true,
+        "charset": "UTF-8",
+        "lifecycleTimeout": 300,
+        "privacyDefault": "optedin",
+        "batchLimit": 0,
+        "timezone": "EST",
+        "timezoneOffset": -300,
+        "referrerTimeout": 0,
+        "poi": [
+                [
+                 "Adobe Ottawa Office",
+                 45.4022954,
+                 -75.70940769999999,
+                 30
+                 ]
+                ]
+    },
+    "messages": [],
+    "remotes": {
+        "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5441424a310cbdee5d000020.json",
+        "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5441424a4a82b92651000054.json"
+    }
+}
