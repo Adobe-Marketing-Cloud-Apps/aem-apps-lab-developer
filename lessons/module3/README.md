@@ -32,7 +32,7 @@ The project used by this lab includes a folder structure for developing a typica
 ## Lesson 2 – Component Development
 
 ### Exercise 1 – Create Camera Component
-1.  Copy [phonegap-camera](phonegap-camera) to (/content/src/main/content/jcr_root/apps/summit-developer-lab/components)[/content/src/main/content/jcr_root/apps/summit-developer-lab/components]
+1.  Copy [phonegap-camera](phonegap-camera) to [/content/src/main/content/jcr_root/apps/summit-developer-lab/components](/content/src/main/content/jcr_root/apps/summit-developer-lab/components)
 2.  Open SublimeText editor
 3.  Select Project > Open Project… menu
 4.  Go to ~/L712/summit-developer-lab and select summit-developer-lab.sublime-project
