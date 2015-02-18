@@ -11,23 +11,17 @@ Components are an integral part to the AEM authoring experience.  They are the b
 
 The project used by this lab includes a folder structure for developing a typical AEM application and installing resources to the server. This allows the developer to work with the tools they are accustomed to yet still provide a simple means to deploy changes to AEM through packages.
 
-1.  Clone the developer lab from GitHub
-  a.  Open Terminal
-  b.  `cd ~`
-  c.  `mkdir lab712`
-  d.  `cd lab712`
-  e.  `git clone https://github.com/Adobe-Marketing-Cloud-Apps/summit-developer-lab`
-2.  Open lab project in Finder
+1.  Open lab project in Finder
   a.  cd summit-developer-lab
   b.  open .
-3.  Go to  /content/src/main/content/jcr_root 
-4.  Explore the directory structure that will be installed to AEM
+2.  Go to  /content/src/main/content/jcr_root 
+3.  Explore the directory structure that will be installed to AEM
   a.  /apps: location for components and templates used by app
   b.  /etc/designs: the design used by the app (ie. Styles)
   c.  /content/dam: assets used by the app (ie. Images)
   d.  /content/phonegap: all of the page content for the app
-5.  What component does the page template for the app use?
-6.  What clientlibs is the app’s design dependent on?
+4.  What component does the page template for the app use?
+5.  What clientlibs is the app’s design dependent on?
 
 ## Lesson 2 – Component Development
 
@@ -39,38 +33,7 @@ The project used by this lab includes a folder structure for developing a typica
 5.  Open `.config.xml` of the phonegap-camera component and give your new component a title and description
 6.  Notice the group this component belongs to
 
-### Exercise 2 – Add HTML to Camera Component
-1.  Open phonegap-camera.jsp in SublimeText
-2.  Add HTML that will be used when the camera component is rendered
-
-```
-    <%@include file="/libs/foundation/global.jsp" %><%
-    %><%@ page session="false" %><%
-    %>
-    <div ng-controller="CameraCtrl" class="list card">
-        <div class="item">
-            <h2>Camera</h2>
-            <p>Take a picture</p>
-        </div>
-        
-        <div class="item item-image">
-            <img ng-src="{{imageSrc}}">
-        </div>
-        
-        <div class="item tabs tabs-secondary tabs-icon-left">
-            <a class="tab-item" ng-click="takeAPicture()">
-                <i class="icon ion-ios7-camera-outline"></i>
-                Take a picture
-            </a>
-            <a class="tab-item" ng-click="browseForAPicture()">
-                <i class="icon ion-ios7-photos-outline"></i>
-                Browse gallery
-            </a>
-        </div>
-    </div>
-```
-
-### Exercise 3 – Add JavaScript to Camera Component
+### Exercise 2 – Add JavaScript to Camera Component
 1.  Open clientlibs/phonegap-camera.js in SublimeText
 2.  Add JavaScript that will be used by the camera component
 
@@ -138,6 +101,37 @@ The project used by this lab includes a folder structure for developing a typica
     }(angular, document));
 ```
 3. Add `phonegapCamera` module to [/content/src/main/content/jcr_root/apps/summit-developer-lab/components/ng-phonegap-page/angular-module-list.js.jsp](/content/src/main/content/jcr_root/apps/summit-developer-lab/components/ng-phonegap-page/angular-module-list.js.jsp)
+
+### Exercise 3 – Add HTML to Camera Component
+1.  Open phonegap-camera.jsp in SublimeText
+2.  Add HTML that will be used when the camera component is rendered
+
+```
+    <%@include file="/libs/foundation/global.jsp" %><%
+    %><%@ page session="false" %><%
+    %>
+    <div ng-controller="CameraCtrl" class="list card">
+        <div class="item">
+            <h2>Camera</h2>
+            <p>Take a picture</p>
+        </div>
+        
+        <div class="item item-image">
+            <img ng-src="{{imageSrc}}">
+        </div>
+        
+        <div class="item tabs tabs-secondary tabs-icon-left">
+            <a class="tab-item" ng-click="takeAPicture()">
+                <i class="icon ion-ios7-camera-outline"></i>
+                Take a picture
+            </a>
+            <a class="tab-item" ng-click="browseForAPicture()">
+                <i class="icon ion-ios7-photos-outline"></i>
+                Browse gallery
+            </a>
+        </div>
+    </div>
+```
 
 ## Lesson 3 – Project Installation
 

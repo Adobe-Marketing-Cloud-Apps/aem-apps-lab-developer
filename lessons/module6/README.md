@@ -22,6 +22,13 @@ b. See: [content/src/main/content/jcr_root/content/phonegap/summit-developer-lab
 ### Exercise 2 – Add Tracking to a Component
 1.	Open phonegap-camera.js created during [Module 3](../module3)
 2.	Add instrumentation to track camera actions 
+
+```
+if (window.ADB){
+    ADB.trackAction('browseForAPicture', {});
+}
+```
+
 3.	Install all project changes to AEM
   a. `mvn -PautoInstallPackage clean install`
 

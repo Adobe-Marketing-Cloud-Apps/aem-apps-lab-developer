@@ -1,3 +1,29 @@
+## takeAPicture()
+
+```
+$scope.takeAPicture = function() {
+  camera.getPicture(gotPicture, cameraError, {
+      quality: 50,
+      destinationType: Camera.DestinationType.DATA_URL
+  });
+};
+```
+
+## browseForAPicture()
+
+```
+$scope.browseForAPicture = function() {
+  camera.getPicture(gotPicture, cameraError, {
+      quality: 50,
+      sourceType: Camera.PictureSourceType.PHOTOLIBRARY,
+      destinationType: Camera.DestinationType.DATA_URL
+  });
+};
+```
+
+## Final JavaScript
+
+```
 ;(function (angular, document, undefined) {
 
     angular.module('phonegapCamera', ['btford.phonegap.ready'])
@@ -12,13 +38,20 @@
                 console.error('Problem: ' + message);
             }
 
-            //
-            //Add takeAPicture function here
-            //
+			$scope.takeAPicture = function() {
+			  camera.getPicture(gotPicture, cameraError, {
+			      quality: 50,
+			      destinationType: Camera.DestinationType.DATA_URL
+			  });
+			};
 
-            //
-            // Add browseForAPicture function here
-            //
+			$scope.browseForAPicture = function() {
+			  camera.getPicture(gotPicture, cameraError, {
+			      quality: 50,
+			      sourceType: Camera.PictureSourceType.PHOTOLIBRARY,
+			      destinationType: Camera.DestinationType.DATA_URL
+			  });
+			};
 
         }])
 
@@ -54,3 +87,5 @@
 
 }(angular, document));
 
+
+```

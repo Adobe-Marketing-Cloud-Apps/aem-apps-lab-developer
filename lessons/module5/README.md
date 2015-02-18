@@ -25,31 +25,33 @@ The PhoneGap Enterprise viewer provides the ability for both developers and mark
 
 ### Exercise 1 – Launch Viewer
 In this exercise, the instructor will walk you through the key parts of the PhoneGap Enterprise viewer during a live demo of this exciting functionality. 
-1.	Download PhoneGap Enterprise app from app store
-2.	Launch PhoneGap Enterprise app
 
 ![PGE intro](../images/pge-intro.png "PGE intro")
 
-3.	Connect to your local AEM instance
-4.	View list of apps
-5.	Select app from Development list
-6.	View meta data for app
-7.	Select Open to download and deploy app to your device
-8.	Tap the device’s screen with three fingers to return back to the PhoneGap Enterprise app list
+1. Download PhoneGap Enterprise app from app store
+2. Launch PhoneGap Enterprise app
+3. Connect to your local AEM instance
+4. View list of apps
+5. Select app from Development list
+6. View meta data for app
+7. Select Open to download and deploy app to your device
+8. Tap the device’s screen with three fingers to return back to the PhoneGap Enterprise app list
 
 ### Exercise 2 – Refreshing an App
 In this exercise, the instructor will continue walking you through the PhoneGap Enterprise viewer after making changes to the app’s page content and meta data in AEM.
-1.	Pull down on the development tab to refresh the app list
-2.	Open the specified app again
-3.	Notice the meta data has been updated
-4.	Tap on Open again to download and deploy the app
-5.	Notice the page content in the app has also changed 
+
+1. Pull down on the development tab to refresh the app list
+2. Open the specified app again
+3. Notice the meta data has been updated
+4. Tap on Open again to download and deploy the app
+5. Notice the page content in the app has also changed 
 
 ### Exercise 3 – Staging an App
 In this exercise the instructor will stage the updated content for publishing in AEM.
-1.	Return to the app list using the three finger tap gesture
-2.	Select the Staging tab
-a.	Notice the app also appears on this tab since content has now been staged (you may need to pull down the list to refresh)
+
+1. Return to the app list using the three finger tap gesture
+2. Select the Staging tab
+  a. Notice the app also appears on this tab since content has now been staged (you may need to pull down the list to refresh)
 
 
 [Next →](../module6)
