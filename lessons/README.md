@@ -2,7 +2,7 @@
 
 AEM Apps and PhoneGap Enterprise bring together the simplicity and ease-of-use of the Adobe Experience Manager authoring environment with the power and portability of PhoneGap mobile applications. Using AEM Apps you can create, author, and update your applications within AEM. With PhoneGap Enterprise you can choose from a range of pre-built app components, build your app across multiple mobile platforms, and test your apps within the PhoneGap Enterprise mobile application.
 
-In this lab you will learn how to quickly and easily build your own mobile application, how to test it in simulators for a range of devices, and how to update your application on the fly.
+In this lab you will be introduced to Adobe Experience Manager and PhoneGap, learn how to quickly and easily build your own mobile application, how to test it in simulators for a range of devices, and how to track app usage.
 
 ## Outline
 1. [Module 1: AEM Introduction](module1)

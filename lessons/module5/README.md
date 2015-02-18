@@ -27,7 +27,9 @@ The PhoneGap Enterprise viewer provides the ability for both developers and mark
 In this exercise, the instructor will walk you through the key parts of the PhoneGap Enterprise viewer during a live demo of this exciting functionality. 
 1.	Download PhoneGap Enterprise app from app store
 2.	Launch PhoneGap Enterprise app
+
 ![PGE intro](../images/pge-intro.png "PGE intro")
+
 3.	Connect to your local AEM instance
 4.	View list of apps
 5.	Select app from Development list
