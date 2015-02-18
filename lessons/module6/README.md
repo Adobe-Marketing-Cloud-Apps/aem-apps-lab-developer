@@ -7,12 +7,13 @@ Instrumenting an app to send analytic data involves adding the Adobe Mobile Serv
 
 ### Exercise 1 – Add Tracking capability to your app
 The developer lab has already completed the following steps required to add tracking capabilities to an app. 
+
 1. Add the ADB mobile plugin 
-  a. See: [content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/shell/jcr_content/pge-app/app-content/phonegap/www/config.xml](../../content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/shell/jcr_content/pge-app/app-content/phonegap/www/config.xml)
+  a. See: [/content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/shell/_jcr_content/pge-app/app-content/phonegap/www/config.xml](../../content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/shell/_jcr_content/pge-app/app-content/phonegap/www/config.xml)
 
 2.	Copy AMS config to native project 
   a. A cordova after_prepare hook can be used to copy the AMS config to the the native project
-b. See: [content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/shell/jcr_content/pge-app/app-content/phonegap/scripts/ copy_AMS_config.js](../../content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/shell/jcr_content/pge-app/app-content/phonegap/scripts/ copy_AMS_config.js)
+b. See: [content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/shell/jcr_content/pge-app/app-content/phonegap/scripts/copy_AMS_config.js](../../content/src/main/content/jcr_root/content/phonegap/summit-developer-lab/shell/jcr_content/pge-app/app-content/phonegap/scripts/copy_AMS_config.js)
 
 3.	Add the ADB mobile content sync config
   a.	Used to include the uploaded mobile config with the app assets package
