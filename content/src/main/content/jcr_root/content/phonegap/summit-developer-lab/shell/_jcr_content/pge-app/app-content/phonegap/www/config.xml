@@ -38,7 +38,7 @@
     <preference name="iosPersistentFileLocation" value="Library" />
     <preference name="AndroidPersistentFileLocation" value="Internal" />
 
-    <icon src="icon.png" />
+    <icon src="www/icon.png" />
     <access origin="*" />
 
     <feature name="org.apache.cordova.file">
@@ -50,6 +50,9 @@
     <feature name="org.apache.cordova.device">
         <param name="id" value="org.apache.cordova.device@0.2.8"/>
     </feature>
+    <feature name="org.apache.cordova.camera">
+        <param name="id" value="org.apache.cordova.camera@0.3.2"/>
+    </feature>    
     <feature name="org.apache.cordova.console">
         <param name="id" value="org.apache.cordova.console@0.2.10"/>
     </feature>
@@ -65,17 +68,13 @@
     <feature name="org.apache.cordova.splashscreen">
         <param name="id" value="org.apache.cordova.splashscreen@0.3.4"/>
     </feature>
-    <!-- Module 5 --><!--
     <feature name="ADBMobile">
         <param name="id" value="https://github.com/Adobe-Marketing-Cloud/mobile-services#0482f9cedf90c98a8d4b07219ece1933b2e46a60"/>
-    </feature>
-     -->
-    
+    </feature>    
     
     <!-- Hooks -->
     <hook type="after_platform_add" src="scripts/restore_plugins.js"/>
-    <!-- Module 5 --><!--<hook type="after_prepare" src="scripts/copy_AMS_config.js" />-->
-    
+    <hook type="after_prepare" src="scripts/copy_AMS_config.js" />    
 
     <!-- Platforms -->
     <gap:platform name="ios" />
