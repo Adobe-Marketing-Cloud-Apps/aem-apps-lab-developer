@@ -23,9 +23,9 @@
                 <phonegap/>
             </app-content>
             <app-config/>
-            <developer-lab/>
-            <developer-lab-dev/>
             <app-config-dev/>
+            <developer-lab/>
+            <developer-lab-dev/>            
         </pge-app>
         <screenshots
             jcr:primaryType="nt:unstructured"

@@ -35,103 +35,19 @@ The project used by this lab includes a folder structure for developing a typica
 
 ### Exercise 2 – Add JavaScript to Camera Component
 1.  Open clientlibs/phonegap-camera.js in SublimeText
-2.  Add JavaScript that will be used by the camera component
-
-```
-    ;(function (angular, document, undefined) {
-
-        angular.module('phonegapCamera', ['btford.phonegap.ready'])
-
-            .controller('CameraCtrl', ['$scope', 'camera', function($scope, camera) {
-
-                function gotPicture(imageData) {
-                    $scope.imageSrc = "data:image/jpeg;base64," + imageData;
-                }
-
-                function cameraError(message) {
-                    console.error('Problem: ' + message);
-                }
-
-                $scope.takeAPicture = function() {
-                    camera.getPicture(gotPicture, cameraError, {
-                        quality: 50,
-                        destinationType: Camera.DestinationType.DATA_URL
-                    });
-                };
-
-                $scope.browseForAPicture = function() {
-                    camera.getPicture(gotPicture, cameraError, {
-                        quality: 50,
-                        sourceType: Camera.PictureSourceType.PHOTOLIBRARY,
-                        destinationType: Camera.DestinationType.DATA_URL
-                    });
-                };
-
-            }])
-
-            .factory('camera', function ($rootScope, phonegapReady) {
-                return {
-                  getPicture: phonegapReady(function (onSuccess, onError, options) {
-                    navigator.camera.getPicture(function () {
-                      var that = this,
-                        args = arguments;
-                        
-                      if (onSuccess) {
-                        $rootScope.$apply(function () {
-                          onSuccess.apply(that, args);
-                        });
-                      }
-                    }, function () {
-                      var that = this,
-                      args = arguments;
-                        
-                      if (onError) {
-                        $rootScope.$apply(function () {
-                          onError.apply(that, args);
-                        });
-                      }
-                    },
-                    options);
-                  })
-                }
-            })
-
-            ;
-
-    }(angular, document));
-```
+2.  Add JavaScript that will be used by the camera component under the `CameraCtrl` controller
+  a. Copy JavaScript from [exercise2](exercise2)
 3. Add `phonegapCamera` module to [/content/src/main/content/jcr_root/apps/summit-developer-lab/components/ng-phonegap-page/angular-module-list.js.jsp](/content/src/main/content/jcr_root/apps/summit-developer-lab/components/ng-phonegap-page/angular-module-list.js.jsp)
 
 ### Exercise 3 – Add HTML to Camera Component
-1.  Open phonegap-camera.jsp in SublimeText
-2.  Add HTML that will be used when the camera component is rendered
-
-```
-    <%@include file="/libs/foundation/global.jsp" %><%
-    %><%@ page session="false" %><%
-    %>
-    <div ng-controller="CameraCtrl" class="list card">
-        <div class="item">
-            <h2>Camera</h2>
-            <p>Take a picture</p>
-        </div>
-        
-        <div class="item item-image">
-            <img ng-src="{{imageSrc}}">
-        </div>
-        
-        <div class="item tabs tabs-secondary tabs-icon-left">
-            <a class="tab-item" ng-click="takeAPicture()">
-                <i class="icon ion-ios7-camera-outline"></i>
-                Take a picture
-            </a>
-            <a class="tab-item" ng-click="browseForAPicture()">
-                <i class="icon ion-ios7-photos-outline"></i>
-                Browse gallery
-            </a>
-        </div>
-    </div>
-```
+1. Open phonegap-camera.jsp in SublimeText
+2. Add ng-controller attribute to top level DIV
+  a. `ng-controller="CameraCtrl"`
+3. Add a click handler for takeAPicture() to the first <A/> element
+  a. `ng-click=" takeAPicture()"`
+4. Add a click handler for browseForAPicture() to the second <A/> element
+  a. `ng-click=" takeAPicture()”`
+5. See: [exercise3](exercise3) for final HTML
 
 ## Lesson 3 – Project Installation
 
