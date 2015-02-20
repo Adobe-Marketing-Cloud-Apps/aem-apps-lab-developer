@@ -1,10 +1,3 @@
-/**
-    Insert JavaScript here
-**/
-
-
-/**
-
 ;(function (angular, document, undefined) {
 
     angular.module('phonegapCamera', ['btford.phonegap.ready'])
@@ -73,6 +66,3 @@
         ;
 
 }(angular, document));
-
-**/
-
