@@ -17,5 +17,6 @@
 'cqContentSync',
 'cqAppControllers',
 'cqAppNavigation',
-'snap'
+'snap',
+'phonegapCamera'
 ]
