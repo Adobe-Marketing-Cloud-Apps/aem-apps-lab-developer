@@ -10,8 +10,7 @@ AEM Apps enables businesses to deliver more effective apps by bridging the gap b
 ### Exercise 1 – Starting AEM
 1.  Find the AEM folder on the desktop (named AEM-Apps-Lab)
 2.  Open up the author folder and double-click the quickstart jar (named aem-author-4502.jar)
-3.  Open up the publish folder and double-click the quickstart jar (named aem-publish-4503.jar)
-4.  Wait until your browser window automatically opens to http://localhost:4502/ and http://localhost:4503/  (this may take a few minutes)
+4.  Wait until your browser window automatically opens to http://localhost:4502/ (this may take a few minutes)
 
 ### Exercise 2 – Logging in to AEM Author
 1.  Go to the browser window that shows the AEM login to the author instance (http://localhost:4502/)
