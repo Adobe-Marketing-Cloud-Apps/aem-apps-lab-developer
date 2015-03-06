@@ -12,8 +12,8 @@ Components are an integral part to the AEM authoring experience.  They are the b
 The project used by this lab includes a folder structure for developing a typical AEM application and installing resources to the server. This allows the developer to work with the tools they are accustomed to yet still provide a simple means to deploy changes to AEM through packages.
 
 1.  Open lab project in Finder
-  a.  cd summit-developer-lab
-  b.  open .
+  a. cd summit-developer-lab
+  b. open .
 2.  Go to  /content/src/main/content/jcr_root 
 3.  Explore the directory structure that will be installed to AEM
   a.  /apps: location for components and templates used by app
