@@ -8,6 +8,8 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="Developer Lab"
         sling:resourceType="summit-developer-lab/components/splash-page"
+        cq:cloudserviceconfigs="[/etc/cloudservices/mobileservices/summit2015appslabconfig/labapp]"
+        mobileServiceConfig="/etc/cloudservices/mobileservices/summit2015appslabconfig/labapp"
         pge-type="[app-instance]"
         phonegap-build-exportTemplate="/content/phonegap/summit-developer-lab/shell/jcr:content/pge-app/developer-lab"
         phonegap-build-exportTemplate-dev="/content/phonegap/summit-developer-lab/shell/jcr:content/pge-app/developer-lab-dev"
