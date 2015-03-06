@@ -10,7 +10,7 @@ AEM Apps enables businesses to deliver more effective apps by bridging the gap b
 ### Exercise 1 – Starting AEM
 1.  Find the AEM folder on the desktop (named AEM-Apps-Lab)
 2.  Open up the author folder and double-click the quickstart jar (named aem-author-4502.jar)
-4.  Wait until your browser window automatically opens to http://localhost:4502/ (this may take a few minutes)
+3.  Wait until your browser window automatically opens to http://localhost:4502/ (this may take a few minutes)
 
 ### Exercise 2 – Logging in to AEM Author
 1.  Go to the browser window that shows the AEM login to the author instance (http://localhost:4502/)
@@ -21,22 +21,22 @@ AEM Apps enables businesses to deliver more effective apps by bridging the gap b
 ### Exercise 3 – Review the AEM UI 
 1.  Navigate around the landing page get an idea of the content and layout.
 2.  Review Header Bar
-  a. Marketing Cloud link
-  b. Rail collapse icon
-  c. Bread crumb
-  d. Help
-  e. Notifications
-  f. User settings
+  1. Marketing Cloud link
+  2. Rail collapse icon
+  3. Bread crumb
+  4. Help
+  5. Notifications
+  6. User settings
 3.  Review Rail menu options
-  a. Core product areas and sub areas
-  b. Can be collapsed
+  1. Core product areas and sub areas
+  2. Can be collapsed
 4.  Review Bread Crumb
-  a. Trail of path taken
-  b. Path is linked to allow fast 
+  1. Trail of path taken
+  2. Path is linked to allow fast 
 5.  Review Action Bar
-  a. Actions on selected items from Content Pane
+  1. Actions on selected items from Content Pane
 6.  Review Content Pane 
-  a. Display content, views can vary and include; card view, list view, details view etc
+  1. Display content, views can vary and include; card view, list view, details view etc
 
 ## Lesson 2 - AEM Apps Basics
 
@@ -47,15 +47,15 @@ AEM Apps enables businesses to deliver more effective apps by bridging the gap b
 4.  Explore the Apps Dashboard
   1. Details Tile
     * Manage app metadata and assets
-  1. Metrics Tile
+  2. Metrics Tile
     * Report and manage Adobe Analytics integration
-  1. Content Tile
+  3. Content Tile
     * Manage your app content
-  1. Content Sync Packages Tile 
+  4. Content Sync Packages Tile 
     * Manage your app updates
-  1. Push Notifications Tile
+  5. Push Notifications Tile
     * Manage app push integration and send push notifications
-  1. PhoneGap Build Tile
+  6. PhoneGap Build Tile
     * Manage PhoneGap Build integration and perform remote builds
  
 ### Exercise 2 – Edit the application name and description
