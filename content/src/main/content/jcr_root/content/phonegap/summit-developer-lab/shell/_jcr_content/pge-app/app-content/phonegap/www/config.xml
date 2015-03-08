@@ -60,7 +60,7 @@
         <param name="id" value="org.apache.cordova.dialogs@0.2.10"/>
     </feature>
     <feature name="org.chromium.zip">
-        <param name="id" value="org.chromium.zip@2.0.0"/>
+        <param name="id" value="org.chromium.zip@2.1.0"/>
     </feature>
     <feature name="org.apache.cordova.statusbar">
         <param name="id" value="org.apache.cordova.statusbar@0.1.8"/>
@@ -73,8 +73,7 @@
     </feature>    
     
     <!-- Hooks -->
-    <hook type="after_platform_add" src="scripts/restore_plugins.js"/>
-    <hook type="after_prepare" src="scripts/copy_AMS_config.js" />    
+    <hook type="before_compile" src="scripts/copy_AMS_config.js" />   
 
     <!-- Platforms -->
     <gap:platform name="ios" />
