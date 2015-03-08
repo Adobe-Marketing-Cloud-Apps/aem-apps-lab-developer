@@ -13,6 +13,9 @@
             }
 
             $scope.takeAPicture = function() {
+              if (window.ADB) {
+                ADB.trackAction('takeAPicture', {});
+              }               
               camera.getPicture(gotPicture, cameraError, {
                   quality: 50,
                   destinationType: Camera.DestinationType.DATA_URL
@@ -20,6 +23,9 @@
             };
 
             $scope.browseForAPicture = function() {
+              if (window.ADB) {
+                ADB.trackAction('browseForAPicture', {});
+              }              
               camera.getPicture(gotPicture, cameraError, {
                   quality: 50,
                   sourceType: Camera.PictureSourceType.PHOTOLIBRARY,
