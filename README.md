@@ -5,26 +5,23 @@ This lab was orginally developed for [Adobe SUMMIT 2015](http://summit.adobe.com
 
 ### Related Links
 
-- [Lab Workbook](http://me.planetrumsey.ca/assets/summit2015/L712_arumsey.pdf)
-- [Lab Slides](http://www.slideshare.net/arumsey/l712-arumsey)
+- [Developer Lab Workbook](http://me.planetrumsey.ca/assets/summit2015/L712_arumsey.pdf)
+- [Developer Lab Slides](http://www.slideshare.net/arumsey/l712-arumsey)
 
 ### Marketer Lab
 
 A companion lab for marketers was also offered during [Adobe SUMMIT 2015](http://summit.adobe.com/na/).
 
 - [Marketer Lab Workbook](http://me.planetrumsey.ca/assets/summit2015/L718_Fait.pdf)
-- [Markerter Lab slides](http://www.slideshare.net/arumsey/managing-mobile-apps-a-phonegap-enterprise-introduction-for-marketers)
+- [Marketer Lab Slides](http://www.slideshare.net/arumsey/managing-mobile-apps-a-phonegap-enterprise-introduction-for-marketers)
 
 ### Minimum Requirements
 
-- AEM 6.0, with:
-	- [Service Pack 1](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem600/servicepack/AEM-6.0-Service-Pack) installed
-	- [Apps Feature Pack 1](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq600/featurepack/cq-6.0.0-featurepack-4558) installed
+- AEM 6.1
 - [node.js](http://nodejs.org/) version `>=0.10.x`
 - [PhoneGap CLI](https://github.com/phonegap/phonegap-cli) version `>=3.6.0`
 - (iOS only) Xcode version `==6.1`
 - (iOS only) [ios-sim](https://github.com/phonegap/ios-sim#installation) 
-- (Android only) [Android SDK](https://developer.android.com/sdk/index.html)
 
 ### Get started
 
