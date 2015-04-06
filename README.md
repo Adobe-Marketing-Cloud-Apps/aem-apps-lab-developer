@@ -1,20 +1,35 @@
 # Building Mobile Apps: Lab
 ## A PhoneGap Enterprise Introduction for Developers
 
+This lab was orginally developed for [Adobe SUMMIT 2015](http://summit.adobe.com/na/).
+
+### Related Links
+
+- [Developer Lab Workbook](http://me.planetrumsey.ca/assets/summit2015/L712_arumsey.pdf)
+- [Developer Lab Slides](http://www.slideshare.net/arumsey/l712-arumsey)
+
+### Marketer Lab
+
+A companion lab for marketers was also offered during [Adobe SUMMIT 2015](http://summit.adobe.com/na/).
+
+- [Marketer Lab Workbook](http://me.planetrumsey.ca/assets/summit2015/L718_Fait.pdf)
+- [Marketer Lab Slides](http://www.slideshare.net/arumsey/managing-mobile-apps-a-phonegap-enterprise-introduction-for-marketers)
+
 ### Minimum Requirements
 
-- AEM 6.0, with:
-	- [Service Pack 1](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem600/servicepack/AEM-6.0-Service-Pack) installed
-	- [Apps Feature Pack 1](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq600/featurepack/cq-6.0.0-featurepack-4558) installed
+- AEM 6.1
 - [node.js](http://nodejs.org/) version `>=0.10.x`
 - [PhoneGap CLI](https://github.com/phonegap/phonegap-cli) version `>=3.6.0`
 - (iOS only) Xcode version `==6.1`
 - (iOS only) [ios-sim](https://github.com/phonegap/ios-sim#installation) 
-- (Android only) [Android SDK](https://developer.android.com/sdk/index.html)
 
 ### Get started
 
 Clone this repository to your machine to begin.
+
+### Lessons
+
+Lessons associated with this lab can be found in the [lessons directory](lessons) of this repository.
 
 ### Install
 
@@ -33,10 +48,6 @@ Once built and installed via maven, your new app should be editable in AEM. Take
 A new app folder with the name 'Summit Lab' should be listed. Tap it to view the app you installed. If you followed the instructions exactly and have your author instance running locally on `:4502`, you should be able to author your new app via the following link:
 
 [http://localhost:4502/editor.html/content/phonegap/Geometrixx/ShapesCon/en/home.html](http://localhost:4502/editor.html/content/phonegap/Geometrixx/ShapesCon/en/home.html)
-
-### Lessons
-
-Lessons associated with this lab can be found in the [lessons directory](lessons) of this repository.
 
 ### Run on the iOS Simulator
 
