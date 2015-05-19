@@ -81,12 +81,12 @@ You have now successfully created a component that can be consumed by AEM apps.
 ## Lesson 2 – Feedback Component
 
 This component will display a button to allow posting messages to Twitter.
-This component makes use of the [SocialSharing](https://github.com/whiteoctober/cordova-plugin-app-version) plugin.
+This component makes use of the [SocialSharing](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git) plugin.
 
 ```
 Note: Use of this component requires the SocialSharing plugin to be added to your app.
 
-  phonegap plugin add https://github.com/Telerik-Verified-Plugins/Estimote
+  phonegap plugin add https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git
 ```
 
 ### Exercise 1
