@@ -257,5 +257,6 @@
     </profiles>
   <modules>
     <module>content</module>
+    <module>content-components</module>
   </modules>
 </project>

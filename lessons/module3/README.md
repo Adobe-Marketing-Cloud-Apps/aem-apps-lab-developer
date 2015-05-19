@@ -3,8 +3,6 @@ App Development
 
 Creating a new PhoneGap Enterprise App starts with a well-defined project structure that not only simplifies installation to AEM but also enables web developers to continue using the same tools they are familiar with. 
 
-Components are an integral part to the AEM authoring experience.  They are the building blocks that developers provide to authors for assembling mobile app pages. 
-
 ## Lesson 1 – Project Structure
 
 ### Exercise 1: Project Overview
@@ -24,6 +22,10 @@ The project used by this lab includes a folder structure for developing a typica
 5.  What clientlibs is the app’s design dependent on?
 
 ## Lesson 2 – Component Development
+
+Components are an integral part to the AEM authoring experience.  They are the building blocks that developers provide to authors for assembling mobile app pages. 
+
+For this module a simple component that accesses a device's camera using Java Server Pages will be created. The next module will go into more detail on AEM component development for mobile apps.
 
 ### Exercise 1 – Create Camera Component
 1.  Copy [phonegap-camera](phonegap-camera) to [/content/src/main/content/jcr_root/apps/summit-developer-lab/components](/content/src/main/content/jcr_root/apps/summit-developer-lab/components)
@@ -67,5 +69,5 @@ This project uses Maven for building and contains helpful profiles and propertie
 7.  Explore the Apps Dashboard for the project you installed
 
 
-[Next →](../module4)
+[Next →](../module3a)
 

@@ -2,7 +2,7 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/summit-developer-lab"/>
     <filter root="/content/phonegap/summit-developer-lab" mode="merge"/>
-    <filter root="/etc/clientlibs/summit/ionic-1.0.0-beta.13"/>
+    <filter root="/etc/clientlibs/summit/ionic-1.0.0"/>
     <filter root="/etc/clientlibs/summit/angular-snap"/>
     <filter root="/etc/designs/phonegap/summit/developer-lab"/>
     <filter root="/content/dam/summit/developer-lab"/>

@@ -2,6 +2,7 @@
 ## A PhoneGap Enterprise Introduction for Developers
 
 This lab was orginally developed for [Adobe SUMMIT 2015](http://summit.adobe.com/na/).
+Additional content was added for [PhoneGap Day](http://pgday.phonegap.com) workshops.
 
 ### Related Links
 
@@ -25,7 +26,9 @@ A companion lab for marketers was also offered during [Adobe SUMMIT 2015](http:/
 
 ### Get started
 
-Clone this repository to your machine to begin.
+Clone this repository to begin.
+ 
+    git clone https://github.com/Adobe-Marketing-Cloud-Apps/aem-apps-lab-developer.git
 
 ### Lessons
 

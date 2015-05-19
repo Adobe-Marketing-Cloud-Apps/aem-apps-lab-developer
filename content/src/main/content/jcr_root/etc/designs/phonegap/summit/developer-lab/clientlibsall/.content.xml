@@ -2,5 +2,5 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:ClientLibraryFolder"
     categories="[apps.summit.developer-lab.all]"
-    dependencies="[summit.ionic-1.0.0-beta.13]"
-    embed="[cq.mobile.foundation.angular,angular-snap,btford-angular-phonegap,apps.summit.nav,apps.summit.developer-lab,cq.mobile.content-sync]"/>
+    dependencies="[summit.ionic-1.0.0]"
+    embed="[cq.mobile.foundation.angular,angular-snap,btford-angular-phonegap,apps.summit.nav,cq.mobile.content-sync,apps.adobe.phonegap,apps.summit.developer-lab]"/>

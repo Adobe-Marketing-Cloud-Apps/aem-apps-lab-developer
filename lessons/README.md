@@ -8,6 +8,7 @@ In this lab you will be introduced to Adobe Experience Manager and PhoneGap, lea
 1. [Module 1: AEM Introduction](module1)
 1. [Module 2: PhoneGap Introduction](module2)
 1. [Module 3: App Development](module3)
+1. [Module 3.1: Advanced Component Development](module3.1)
 1. [Module 4: Managing App Content](module4)
 1. [Module 5: Reviewing App Content](module5)
 1. [Module 6: Adobe Mobile Services Analytics](module6)

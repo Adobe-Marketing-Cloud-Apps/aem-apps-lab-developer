@@ -1,0 +1,30 @@
+<div class="beacon padding" ng-controller="BeaconController">
+    <div class="button-bar">
+        <a class="button" ng-click="start()" ng-disabled="started">${'Start' @ i18n}</a>
+        <a class="button" ng-click="stop()" ng-disabled="!started">${'Stop' @ i18n}</a>
+    </div>
+    <div class="card" ng-show="message">
+        <div class="item item-text-wrap">
+            {{message}}
+        </div>
+    </div>
+    <div class="list list-inset" ng-hide="!started">
+        <div class="item">
+            ${'Beacons Found' @i18n}:
+        </div>
+        <div ng-repeat="beacon in beacons">
+            <div class="item item-divider">
+                ${'Color' @i18n}: {{beacon.color}}
+            </div>
+            <div class="item">
+                ${'Distance' @i18n}: {{beacon.distance}} m
+            </div>
+            <div class="item">
+                ${'Major/Minor' @i18n}: {{beacon.major}}.{{beacon.minor}}
+            </div>
+            <div class="item">
+                ${'RSSI' @i18n}: {{beacon.rssi}}
+            </div>
+        </div>
+    </div>
+</div>
