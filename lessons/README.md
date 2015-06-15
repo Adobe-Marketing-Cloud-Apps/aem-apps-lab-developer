@@ -13,6 +13,8 @@ In this lab you will be introduced to Adobe Experience Manager and PhoneGap, lea
 1. [Module 5: Reviewing App Content](module5)
 1. [Module 6: Adobe Mobile Services Analytics](module6)
 
+![Lab Thumbnail](images/lab-icon.png "Lab Thumbnail")
+
 ## Your Guide
 
 __Anthony Rumsey__ ([@planetrumsey](https://twitter.com/planetrumsey/))
